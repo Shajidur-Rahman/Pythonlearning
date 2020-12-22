@@ -19,4 +19,26 @@ aligncenter = center.center(50)
 #using count method
 txt = "i love coding but coding is not my job . coding is my hobby"
 counting = txt.count("coding")
-print(counting)
+#print(counting)
+
+#using ecode
+ecoding = "my name is saad"
+a = ecoding.encode()
+#print(a)
+
+#using endswith
+a = "shajidur rahman."
+b = a.endswith(".")
+#if you use it you can check if what is the last element have (true or false)
+#print(b)
+
+#go to the "https://www.w3schools.com/python/ref_string_expandtabs.asp" link to know expendsteg
+
+#using find
+a = "welcome to my website"
+b = a.find("welcome")
+#if you have the velue it will show you the index number
+#print(b)
+#if you dont have it will show you -1
+
+#
