@@ -63,10 +63,55 @@ b = a.isalpha()
 a = "shajidurrahman"
 b = a.isidentifier()
 #Check if the string is a valid identifier:
+#you can also check can i use it in python as a (a = 2) or not
 #print(b)
 
 #using islower
 a = "hello world"
 b = a.islower()
 #Check if all the characters in the text are in lower case:
-print(b)
+#print(b)
+
+#using printable
+a = "hello i am saa/*/d"
+b = a.isprintable()
+#print(b)
+
+#using isspace
+a = " "
+b = a.isspace()
+#print(b)
+
+#using istitle
+a = "Hello And Welcome To My World!"
+b = a.istitle()
+#Check if each word start with an upper case letter
+#print(b)
+
+#using issuper
+a = "MY NAME IS SHAJIDUR "
+#Check if all the characters in the text are in upper case:
+#print(a.isupper())
+
+# using join
+a = ("shajidur","rahman")
+b = '123'.join(a)
+#Join all items in a tuple into a string, using a hash character as separator:
+#print(b)
+
+#using !just
+a = 'banana'
+b = a.ljust(20)
+#print(a,"is loved by me")
+
+#using lower
+a = "MY NAME IS SHAJIDUR RAHMAN"
+b = a.lower()
+#The lower() method returns a string where all characters are lower case.
+#print(b)
+
+#using maketurens
+txt = "Hello Sam!";
+mytable = txt.maketrans("S", "P");
+#Create a mapping table, and use it in the translate() method to replace any "S" characters with a "P" character:
+print(txt.translate(mytable));
