@@ -114,4 +114,35 @@ b = a.lower()
 txt = "Hello Sam!";
 mytable = txt.maketrans("S", "P");
 #Create a mapping table, and use it in the translate() method to replace any "S" characters with a "P" character:
-print(txt.translate(mytable));
+#print(txt.translate(mytable));
+
+#using pertition
+a = "my name is fat sifat"
+txxt = a.partition("is")
+#print(txxt)
+
+#using replace
+a = "i love my sisters very much"
+b = a.replace("sisters","mother")
+#The replace() method replaces a specified phrase with another specified phrase.
+#print(b)
+
+#using refind
+a = "i love my mother very much"
+b = a.rfind("love")
+#if you want to find an element use it you can also use reindxe
+#print(b)
+#print(a.rindex("love"))
+
+#using split
+a = "i love to code"
+b = a.split("love")
+#remove a item
+#print(b)
+
+#using swipcase
+a = 'my name is shajHDFUidur rahman'
+b = a.swapcase()
+#print(b)
+
+# go to the https://www.w3schools.com/python/ref_string_translate.asp to learn translation
