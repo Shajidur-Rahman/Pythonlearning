@@ -146,3 +146,29 @@ b = a.swapcase()
 #print(b)
 
 # go to the https://www.w3schools.com/python/ref_string_translate.asp to learn translation
+
+
+# I have finished string method
+#now list
+
+
+#using extend
+a = ['shajidur','rahman','saad']
+b = ['sifat','jannat']
+a.extend(b)
+#print(a)
+
+#using insert
+a = ['apple','orange','pineapple']
+a.insert(1,'sifat')
+#print(a)
+
+#using pop
+a = ['shajidur','sifat','smrity']
+b = a.pop(1)
+#print(b)
+
+#using sort
+a = ['shajidur','sifat','jannnat']
+a.sort()
+print(a)
