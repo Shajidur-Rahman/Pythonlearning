@@ -50,7 +50,15 @@ a = ['saad','sifat']
 name_person = ['saad', 'sifat', 'smrity', 'asjd']
 i = 0
 while i < len(name_person):
-    print(name_person[i]) #i am getting an error
+    #print(name_person[i]) #i am getting an error
     i = i + 1
 
-#end of the day
+#list operation
+name = ['shajidur','rahman','saad']
+blank = []
+for i in name:
+    if 'd' in i:
+        #print(i)
+
+#using sort in list
+print('dj')
